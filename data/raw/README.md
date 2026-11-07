@@ -1,20 +1,27 @@
 # Raw Data
 
-This folder stores the original datasets collected for the Canadian Natural Resources Materials & Inventory Forecasting Analytics project.
+This folder stores the original, unmodified datasets downloaded from the U.S. Energy Information Administration (EIA).
 
-## Expected Raw Datasets
+## Expected Datasets
 
-- Material master records.
-- Inventory opening and closing balances.
-- Inventory receipts and issues.
-- Historical material consumption records.
-- Purchase order records.
-- Supplier information.
-- Supplier delivery records.
-- Material replenishment lead times.
+- Petroleum Inventory / Stocks
+- Petroleum Supply
+- Petroleum Demand / Product Supplied
+- Petroleum Imports
+- Petroleum Exports
+- Petroleum Production
 
-Original datasets will be preserved in their collected form before data cleaning, transformation, and analysis.
+## Data Source
 
-**Data Source:** Publicly accessible datasets or clearly identified simulated datasets.
+U.S. Energy Information Administration (EIA)
 
-**Note:** No confidential or proprietary Canadian Natural Resources data will be used.
+https://www.eia.gov/petroleum/data.php
+
+## Data Handling
+
+- Original downloaded datasets will be stored here.
+- Raw datasets will remain unchanged.
+- Data cleaning and transformation will be performed using Python.
+- Processed datasets will be saved in `data/processed/`.
+
+**Note:** Only datasets actually obtained and used in the project will be retained here.
