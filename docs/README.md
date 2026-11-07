@@ -1,13 +1,33 @@
 # Project Documentation
 
-This folder contains supporting technical and analytical documentation for the Canadian Natural Resources Materials & Inventory Forecasting Analytics project.
+This folder contains supporting documentation for the US Oil & Gas Supply Chain and Petroleum Inventory Forecasting project.
 
-## Planned Documentation
+## Documentation Contents
 
-1. `data_sources.md` — Describes the sources, origins, collection methods, and limitations of the datasets.
-2. `data_dictionary.md` — Defines dataset columns, data types, descriptions, and business meanings.
-3. `kpi_definitions.md` — Documents inventory, materials, supplier, and forecasting KPI definitions and calculation formulas.
-4. `forecasting_methodology.md` — Explains the forecasting methods, assumptions, model selection, and evaluation approach.
-5. `inventory_management_methodology.md` — Documents inventory planning concepts, including safety stock, reorder points, and replenishment calculations.
+- Project objectives and scope.
+- Data source documentation.
+- Dataset descriptions and column definitions.
+- Data acquisition documentation.
+- Data quality assessment findings.
+- Data preparation documentation.
+- SQL analysis documentation.
+- Forecasting methodology.
+- KPI definitions and calculations.
+- Project workflow and technical decisions.
 
-This documentation supports transparency, reproducibility, and a clear understanding of the project's analytical methods.
+## Data Source Documentation
+
+Primary data source:
+
+U.S. Energy Information Administration (EIA)
+
+https://www.eia.gov/petroleum/data.php
+
+## Documentation Objectives
+
+- Explain the datasets used in the project.
+- Document analytical methods and decisions.
+- Maintain transparency and reproducibility.
+- Provide context for project findings and recommendations.
+
+**Note:** Supporting documentation will be added as the project progresses.
