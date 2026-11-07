@@ -1,7 +1,7 @@
-# Python cache
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
+*.pyo
 
 # Jupyter Notebook
 .ipynb_checkpoints/
@@ -11,23 +11,18 @@ venv/
 env/
 .venv/
 
-# Environment variables and secrets
+# Environment variables and credentials
 .env
-.env.*
+*.pem
 
-# Operating system files
+# System files
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# IDE settings
-.vscode/
-.idea/
-
 # Temporary files
 *.tmp
-*.bak
 *.log
 
-# Power BI backup files
-*.pbix~
+# Power BI temporary/backup files
+*.bak
