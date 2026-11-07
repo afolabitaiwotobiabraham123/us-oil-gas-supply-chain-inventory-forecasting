@@ -1,18 +1,30 @@
 # Processed Data
 
-This folder stores datasets that have undergone data cleaning, transformation, validation, and preparation for materials and inventory analysis.
+This folder stores datasets that have been cleaned, transformed and prepared using Python.
 
-## Expected Processed Datasets
+## Expected Contents
 
-- Cleaned material master records.
-- Standardized inventory records.
-- Validated inventory transaction records.
-- Prepared material consumption datasets.
-- Cleaned procurement and supplier records.
-- Aggregated material demand datasets.
-- Analysis-ready inventory datasets for MySQL and Power BI.
-- Prepared datasets for demand forecasting.
+- Cleaned petroleum inventory data.
+- Processed petroleum supply data.
+- Processed petroleum demand data.
+- Processed petroleum imports and exports data.
+- Consolidated datasets prepared for SQL analysis and forecasting.
 
-All data preparation activities will be documented to maintain data quality, consistency, and traceability.
+## Data Processing
 
-**Note:** Processed datasets are derived from the original datasets stored in `data/raw/`.
+Data processing will include:
+
+- Handling missing values.
+- Checking and correcting data types.
+- Removing duplicate records where appropriate.
+- Standardizing column names and date formats.
+- Validating data consistency.
+- Preparing datasets for analysis and forecasting.
+
+## Data Source
+
+Original datasets are obtained from the U.S. Energy Information Administration (EIA).
+
+https://www.eia.gov/petroleum/data.php
+
+**Note:** Only processed datasets actually created during the project will be stored here.
