@@ -1,293 +1,184 @@
+# US Oil & Gas Supply Chain and Petroleum Inventory Forecasting Analytics
 
-# Canadian Natural Resources
-## Materials, Inventory & Demand Forecasting Analytics
+## 1. Project Overview
 
-**Project Domain:** Oil & Gas | Supply Chain Analytics | Inventory Management | Forecasting
+This project focuses on analysing petroleum supply chain performance and forecasting petroleum inventory levels in the United States using publicly available data from the **U.S. Energy Information Administration (EIA)**.
 
-**Project Type:** Independent Data Analytics Portfolio Project
+The project examines historical petroleum inventory levels, supply, demand, imports, exports and consumption patterns to understand inventory movements, identify supply-demand imbalances and support better inventory planning and operational decision-making.
 
-**Analytical Focus:** Materials Management, Inventory Optimization, Demand Forecasting and Supply Chain Performance
+The analysis will use real US petroleum industry data to demonstrate how data analytics can support supply chain visibility, inventory monitoring, demand analysis and forecasting in the oil and gas industry.
 
----
+**Data integrity:** This project uses publicly available US petroleum industry statistics. It does not claim access to confidential inventory or operational records from individual oil and gas companies.
 
-## 1. Executive Summary
+## 2. Project Objectives
 
-This project focuses on applying data analytics, inventory management techniques, and forecasting methods to materials and inventory planning within the oil and gas industry.
+- Analyse historical US petroleum inventory levels.
+- Monitor petroleum supply and demand patterns.
+- Examine the relationship between petroleum imports, exports and inventory changes.
+- Identify inventory fluctuations and potential supply-demand imbalances.
+- Analyse petroleum consumption trends.
+- Forecast future petroleum inventory levels.
+- Develop interactive dashboards for inventory and supply chain performance monitoring.
+- Generate business insights to support inventory planning and operational decisions.
 
-Oil and gas operations depend on the availability of critical materials, maintenance supplies, spare parts, and operational inventory. Poor inventory planning can result in material shortages, excess stock, increased holding costs, emergency procurement, and disruptions to maintenance and operational activities.
+## 3. Business Problems
 
-The project aims to demonstrate how Python, MySQL, statistical forecasting, and Power BI can support better inventory decisions, improve material availability, and strengthen supply chain planning.
+The petroleum supply chain is affected by changing demand, production levels, imports, exports and inventory movements.
 
-This is an independent portfolio project inspired by materials and inventory management challenges in the oil and gas industry. It does not use confidential or proprietary Canadian Natural Resources data.
+This project addresses the following business questions:
 
-## 2. Background and Business Problem
+1. How have US petroleum inventory levels changed over time?
+2. What patterns exist in petroleum supply and demand?
+3. How do imports and exports influence domestic petroleum availability?
+4. Which petroleum products experience significant inventory fluctuations?
+5. Are there periods of unusually high or low inventory?
+6. Can historical inventory patterns help forecast future stock levels?
+7. What insights can support better petroleum supply chain planning?
 
-Materials management is an important part of oil and gas supply chain operations.
+## 4. Data Sources
 
-Operational facilities require different categories of materials to maintain equipment, perform maintenance activities, and support continuous production.
+The primary data source is the **U.S. Energy Information Administration (EIA)**.
 
-However, organizations may encounter several inventory management challenges:
+Official data portal:
 
-- Material shortages that delay maintenance and operational activities.
-- Excess inventory that increases inventory holding costs.
-- Unnecessary emergency purchases.
-- Inaccurate material demand planning.
-- Poor visibility into material consumption patterns.
-- Inefficient inventory replenishment decisions.
-- Supplier delivery delays affecting material availability.
+https://www.eia.gov/petroleum/data.php
 
-Without reliable inventory information and demand forecasts, organizations may struggle to determine what materials to purchase, when to replenish stock, and how much inventory to maintain.
+The project will use relevant publicly available datasets, including:
 
-This project explores how data analytics and forecasting can help address these challenges.
-
-## 3. Project Aim
-
-To develop an integrated materials and inventory analytics solution that uses historical data, inventory performance indicators, and forecasting techniques to support material planning, inventory optimization, and supply chain decision-making in the oil and gas industry.
-
-## 4. Project Objectives
-
-The specific objectives are to:
-
-1. Analyze historical material consumption patterns.
-2. Evaluate inventory levels and stock movements.
-3. Identify stockout risks and excess inventory.
-4. Analyze material demand trends and variability.
-5. Calculate relevant inventory management KPIs.
-6. Forecast future material demand.
-7. Support reorder point and safety stock decisions.
-8. Evaluate inventory replenishment and supplier performance where data is available.
-9. Develop interactive dashboards for inventory monitoring.
-10. Provide data-driven recommendations for improving materials and inventory management.
-
-## 5. Analytical Scope
-
-### 5.1 Materials Analytics
-
-This area examines how operational materials are consumed and managed.
-
-Key activities include:
-
-- Material consumption analysis.
-- Material usage pattern identification.
-- High-demand and low-demand material analysis.
-- Critical material identification.
-- Material movement analysis.
-- Identification of unusual consumption patterns.
-
-### 5.2 Inventory Analytics
-
-This area evaluates inventory availability, stock movements, and inventory performance.
-
-Key activities include:
-
-- Inventory level monitoring.
-- Stock availability analysis.
-- Stockout identification.
-- Excess and slow-moving inventory analysis.
-- Inventory turnover analysis.
-- Days of inventory on hand.
-- Reorder point calculations.
-- Safety stock calculations.
-- Inventory replenishment analysis.
-
-### 5.3 Demand Forecasting
-
-This area uses historical material consumption data to estimate future demand.
-
-Key activities include:
-
-- Historical material demand analysis.
-- Material demand forecasting.
-- Forecasting high-consumption materials.
-- Forecast accuracy evaluation.
-- Actual demand versus forecast comparison.
-- Forecast-based inventory planning.
-
-### 5.4 Supplier and Replenishment Performance
-
-This area examines how supplier performance affects material availability and inventory planning.
-
-Key activities include:
-
-- Supplier lead-time analysis.
-- Supplier delivery performance.
-- On-time delivery analysis.
-- Material replenishment performance.
-- Procurement and inventory relationship analysis.
-- Identification of potential supply chain risks.
-
-These analyses will depend on the availability of suitable supplier and procurement records.
-
-## 6. Data Requirements and Sources
-
-The project will use publicly accessible datasets or clearly identified simulated datasets representing oilfield materials, inventory transactions, procurement, and supplier performance.
-
-### 6.1 Potential Data Requirements
-
-| Dataset | Description |
+| Dataset | Purpose |
 |---|---|
-| Material Master | Material IDs, descriptions, categories and units of measurement |
-| Inventory Records | Opening balances, closing balances and stock levels |
-| Inventory Transactions | Material receipts, issues and adjustments |
-| Material Consumption | Historical quantities consumed by material |
-| Purchase Orders | Procurement quantities, order dates and purchase values |
-| Supplier Records | Supplier identification and relevant attributes |
-| Delivery Records | Expected and actual delivery dates |
-| Lead-Time Records | Time taken to replenish materials |
+| Petroleum Stocks / Inventory | Analyse historical petroleum inventory levels |
+| Petroleum Supply | Examine petroleum supply patterns |
+| Petroleum Demand / Product Supplied | Analyse consumption and demand |
+| Petroleum Imports | Monitor incoming petroleum volumes |
+| Petroleum Exports | Analyse outgoing petroleum volumes |
+| Petroleum Production | Examine domestic petroleum production |
 
-### 6.2 Data Source Considerations
+Only datasets that are accessible and relevant to the project will be included.
 
-All datasets will be assessed for relevance, availability, completeness, and suitability for the intended analysis.
+## 5. Scope of Analysis
 
-Where actual company-level data is unavailable, simulated datasets may be used to demonstrate the analytical methods.
+### 5.1 Petroleum Inventory Analysis
+- Historical inventory trends.
+- Inventory fluctuations.
+- Stock level comparisons.
+- High and low inventory periods.
 
-Data sources, assumptions, and limitations will be documented.
+### 5.2 Supply Chain Analysis
+- Petroleum supply patterns.
+- Imports and exports.
+- Domestic production.
+- Supply-demand relationships.
 
-No confidential or proprietary Canadian Natural Resources data is assumed.
+### 5.3 Demand Analysis
+- Petroleum consumption trends.
+- Demand fluctuations.
+- Product-level demand comparisons.
+- Historical demand patterns.
 
-## 7. Tools and Technologies
+### 5.4 Inventory Forecasting
+- Historical inventory trend analysis.
+- Time-series forecasting.
+- Future inventory level predictions.
+- Forecast performance evaluation.
 
-| Technology | Application |
+### 5.5 Operations Analytics
+- Petroleum availability monitoring.
+- Supply-demand imbalance analysis.
+- Inventory movement monitoring.
+- Operational performance insights.
+
+## 6. Tools and Technologies
+
+| Tool | Purpose |
 |---|---|
-| Python | Data acquisition, exploration, assessment and preparation |
-| Jupyter Notebook | Documenting analytical workflows |
-| Pandas | Data manipulation and analysis |
+| Python | Data acquisition, exploration and preparation |
+| Jupyter Notebook | Interactive data analysis |
+| Pandas | Data manipulation and cleaning |
 | Matplotlib | Data visualization |
 | MySQL | Structured data storage and SQL analysis |
-| Scikit-learn | Forecasting and predictive modelling where appropriate |
-| Statsmodels | Statistical and time-series forecasting |
-| Power BI | Interactive dashboards and business reporting |
+| Power BI | Interactive dashboards |
+| Statsmodels | Time-series analysis and forecasting |
+| Scikit-learn | Forecast evaluation and supporting machine learning |
 
-## 8. Key Performance Indicators
+## 7. Project Workflow
 
-The project will calculate and evaluate relevant KPIs across four analytical areas.
+1. Data Acquisition
+2. Exploratory Data Analysis (EDA)
+3. Data Quality Assessment
+4. Data Cleaning and Preparation
+5. MySQL Database Setup
+6. SQL-Based Supply Chain Analysis
+7. Key Performance Indicator (KPI) Analysis
+8. Petroleum Inventory Forecasting
+9. Power BI Dashboard Development
+10. Business Insights and Recommendations
 
-### 8.1 Inventory KPIs
+## 8. Repository Structure
 
-- Inventory Turnover Ratio.
-- Days Inventory Outstanding (DIO).
-- Stockout Rate.
-- Inventory Accuracy.
-- Average Inventory Value.
-- Excess Inventory.
-- Reorder Point.
-- Safety Stock.
+```text
+us-oil-gas-supply-chain-inventory-forecasting/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── python/
+│   ├── 01_data_acquisition.ipynb
+│   ├── 02_exploratory_data_analysis.ipynb
+│   ├── 03_data_quality_assessment.ipynb
+│   └── 04_data_cleaning_preparation.ipynb
+│
+├── mysql/
+│   ├── 01_database_setup.sql
+│   ├── 02_supply_chain_analysis.sql
+│   ├── 03_inventory_kpi_analysis.sql
+│   └── 04_business_analysis.sql
+│
+├── forecasting/
+│   ├── README.md
+│   └── 05_petroleum_inventory_forecasting.ipynb
+│
+├── power_bi/
+│   ├── dashboard/
+│   └── screenshots/
+│
+├── reports/
+│   └── README.md
+│
+├── docs/
+│   └── README.md
+│
+├── requirements.txt
+│
+└── .gitignore
+```
 
-### 8.2 Materials KPIs
+## 9. Expected Deliverables
 
-- Material Consumption Rate.
-- Material Demand Variability.
-- High-Consumption Material Identification.
-- Slow-Moving Material Rate.
+- Downloaded and documented EIA petroleum datasets.
+- Python notebooks for data acquisition and preparation.
+- Exploratory data analysis and data quality findings.
+- MySQL database and analytical SQL queries.
+- Petroleum inventory forecasting model.
+- Power BI supply chain and inventory dashboard.
+- Business insights and recommendations.
 
-### 8.3 Supplier and Replenishment KPIs
+## 10. Expected Business Value
 
-- Supplier Lead Time.
-- On-Time Delivery Rate.
-- Supplier Delivery Performance.
-- Replenishment Cycle Time.
+This project demonstrates how data analytics can help petroleum supply chain and operations teams:
 
-### 8.4 Forecasting KPIs
+- Improve visibility into petroleum inventory movements.
+- Understand supply and demand fluctuations.
+- Monitor petroleum availability.
+- Identify potential supply-demand imbalances.
+- Support inventory planning through forecasting.
+- Make more informed operational and supply chain decisions.
 
-- Mean Absolute Error (MAE).
-- Mean Absolute Percentage Error (MAPE), where appropriate.
-- Root Mean Squared Error (RMSE).
-- Forecast Bias.
+## 11. Disclaimer
 
-All KPI definitions, formulas, assumptions, and data requirements will be documented before calculation.
+This is an independent portfolio project using publicly available US petroleum industry data from the U.S. Energy Information Administration. It is not affiliated with or officially endorsed by the EIA or any US oil and gas company.
 
-## 9. Project Methodology and Workflow
-
-The project will follow a structured analytical workflow.
-
-**Phase 1: Data Acquisition**
-
-Collect relevant public or simulated materials, inventory, procurement, and supplier datasets.
-
-**Phase 2: Exploratory Data Analysis**
-
-Explore dataset structures, distributions, material consumption patterns, and inventory trends.
-
-**Phase 3: Data Quality Assessment**
-
-Assess missing values, duplicate records, inconsistencies, invalid entries, and data reliability.
-
-**Phase 4: Data Cleaning and Preparation**
-
-Clean, standardize, transform, and prepare datasets for analysis.
-
-**Phase 5: MySQL Database Development**
-
-Create database structures, load prepared datasets, and establish relationships between relevant tables.
-
-**Phase 6: SQL-Based Analysis**
-
-Perform materials analysis, inventory analysis, supplier analysis, and KPI calculations.
-
-**Phase 7: Inventory Analytics**
-
-Evaluate inventory performance, identify stockout risks, analyze excess stock, and calculate replenishment indicators.
-
-**Phase 8: Demand Forecasting**
-
-Develop suitable forecasting models using historical material demand data.
-
-**Phase 9: Forecast Evaluation**
-
-Evaluate forecasting performance and compare predicted demand against actual observations.
-
-**Phase 10: Power BI Dashboard Development**
-
-Develop interactive dashboards to communicate inventory performance, material consumption, supplier performance, and forecasting results.
-
-**Phase 11: Business Insights and Recommendations**
-
-Interpret analytical results and develop recommendations supported by the available evidence.
-
-## 10. Expected Project Deliverables
-
-The completed project is expected to contain:
-
-1. Raw and processed datasets.
-2. Python and Jupyter Notebook workflows.
-3. Data quality assessment documentation.
-4. MySQL database and SQL analysis scripts.
-5. Materials consumption analysis.
-6. Inventory performance analysis.
-7. Inventory KPI calculations.
-8. Material demand forecasting models.
-9. Forecast evaluation results.
-10. Power BI inventory analytics dashboard.
-11. Analytical reports and business recommendations.
-12. Project documentation and data dictionary.
-
-## 11. Expected Business Value
-
-The project demonstrates how data analytics and forecasting can support oil and gas materials management through:
-
-- Improved inventory visibility.
-- Reduced risk of material shortages.
-- Identification of excess and slow-moving inventory.
-- Better material replenishment decisions.
-- Improved material demand planning.
-- More informed inventory allocation.
-- Better supplier and delivery performance monitoring.
-- Support for maintenance and operational continuity.
-- Data-driven inventory management decisions.
-
-The actual business impact will depend on the quality of the data, analytical findings, and practical implementation of recommendations.
-
-## 12. Project Limitations and Assumptions
-
-- Publicly available datasets may not fully represent the complexity of an actual oil and gas company's inventory operations.
-- Simulated datasets, where used, will be clearly identified.
-- Forecasting accuracy will depend on historical data quality, quantity, and demand patterns.
-- Supplier performance analysis requires suitable procurement and delivery records.
-- Inventory optimization recommendations will depend on the availability of cost, lead-time, demand, and stock information.
-- No actual Canadian Natural Resources operational performance or financial results will be claimed.
-
-## 13. Project Disclaimer
-
-This is an independent educational and professional portfolio project inspired by materials and inventory management challenges in the oil and gas industry.
-
-It is not an official Canadian Natural Resources project and does not represent the company's internal systems, confidential datasets, actual operational performance, or business decisions.
+All findings and forecasts are based on the datasets and analytical methods used in this project.
