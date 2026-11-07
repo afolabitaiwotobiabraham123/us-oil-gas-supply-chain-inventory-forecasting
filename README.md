@@ -1,4 +1,3 @@
-# PROJECT DOCUMENTATION
 
 # Canadian Natural Resources
 ## Materials, Inventory & Demand Forecasting Analytics
