@@ -1,29 +1,35 @@
 # Power BI Dashboard
 
-This folder contains the interactive Power BI dashboard developed for the Canadian Natural Resources Materials & Inventory Forecasting Analytics project.
+This folder contains the Power BI dashboard files and screenshots developed for the US Oil & Gas Supply Chain and Petroleum Inventory Forecasting project.
 
 ## Dashboard Objectives
 
-The dashboard will provide insights into:
+- Monitor petroleum inventory levels.
+- Track petroleum supply and demand.
+- Analyse petroleum imports and exports.
+- Identify inventory fluctuations.
+- Compare historical inventory performance.
+- Present petroleum inventory forecasting results.
+- Communicate supply chain and operational insights.
 
-- Material consumption patterns.
-- Inventory levels and stock availability.
-- Stockout risks and excess inventory.
-- Inventory turnover and days of inventory on hand.
-- Material demand trends.
-- Supplier and replenishment performance.
-- Forecasted material demand.
-- Reorder points and safety stock.
+## Dashboard Components
 
-## Folder Structure
+1. Petroleum Inventory Overview
+2. Supply and Demand Analysis
+3. Imports and Exports Analysis
+4. Inventory Trend Analysis
+5. Petroleum Inventory Forecasting
 
-- `dashboard/` — Stores the Power BI `.pbix` dashboard file.
-- `screenshots/` — Stores screenshots of dashboard pages and visualizations.
+## Dashboard File
 
-## Tools
+The completed Power BI dashboard will be saved in this folder in `.pbix` format.
 
-- Power BI Desktop.
-- Power Query.
-- DAX.
+## Screenshots
 
-The dashboard will communicate inventory performance, material demand, and forecasting results through interactive visualizations and performance indicators.
+Dashboard screenshots will be stored in the `screenshots/` subfolder.
+
+## Data Source
+
+U.S. Energy Information Administration (EIA).
+
+https://www.eia.gov/petroleum/data.php
