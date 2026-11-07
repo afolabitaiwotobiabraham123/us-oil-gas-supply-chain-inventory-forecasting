@@ -1,0 +1,8 @@
+pandas
+requests
+jupyter
+matplotlib
+sqlalchemy
+pymysql
+scikit-learn
+statsmodels
