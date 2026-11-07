@@ -1,14 +1,26 @@
 # Project Reports
 
-This folder contains analytical reports documenting the findings, inventory performance, forecasting results, and business insights from the Canadian Natural Resources Materials & Inventory Forecasting Analytics project.
+This folder contains analytical reports documenting the findings, results and business recommendations from the US Oil & Gas Supply Chain and Petroleum Inventory Forecasting project.
 
-## Planned Reports
+## Expected Reports
 
-1. `data_quality_report.md` — Documents data quality assessment findings, identified issues, and cleaning decisions.
-2. `materials_analysis.md` — Presents material consumption patterns, demand trends, and material usage findings.
-3. `inventory_performance_analysis.md` — Examines inventory levels, stock movements, stockout risks, excess inventory, and inventory KPIs.
-4. `forecasting_analysis.md` — Documents material demand forecasting methods, model performance, and forecast evaluation.
-5. `supplier_replenishment_analysis.md` — Examines supplier delivery performance and inventory replenishment where data is available.
-6. `business_insights.md` — Summarizes key findings, recommendations, and potential improvements to materials and inventory management.
+1. Exploratory Data Analysis Report
+2. Data Quality Assessment Report
+3. Petroleum Supply Chain Analysis Report
+4. Inventory KPI Analysis Report
+5. Petroleum Inventory Forecasting Report
+6. Final Business Insights and Recommendations
 
-All reports will be based on actual analytical results. No findings or business conclusions will be assumed before the data has been analyzed.
+## Report Contents
+
+Each report will document relevant objectives, analytical methods, findings, observations and conclusions.
+
+## Reporting Objectives
+
+- Communicate petroleum inventory trends.
+- Explain supply and demand patterns.
+- Highlight significant inventory fluctuations.
+- Present forecasting results.
+- Provide actionable supply chain and operational recommendations.
+
+**Note:** Reports will be created as the corresponding analysis activities are completed.
